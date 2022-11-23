@@ -1,7 +1,6 @@
 # useEffect
 
-- 참고자료
-  별코딩님의 [유튜브 강의 영상](https://www.youtube.com/watch?v=kyodvzc5GHU&t=722s)과 [공식문서](https://ko.reactjs.org/docs/hooks-effect.html)를 통해 학습하고 정리합니다.
+**참고자료:** 별코딩님의 [유튜브 강의 영상](https://www.youtube.com/watch?v=kyodvzc5GHU&t=722s)과 [공식문서](https://ko.reactjs.org/docs/hooks-effect.html)를 통해 학습하고 정리합니다.
 
 ## 역할
 
