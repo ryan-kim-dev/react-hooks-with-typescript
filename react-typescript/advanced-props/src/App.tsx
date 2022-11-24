@@ -3,6 +3,7 @@ import Ryan from './components/Ryan';
 import Greet from './components/Greet';
 import Button from './components/Button';
 import Input from './components/Input';
+import Container from './components/Container';
 import React from 'react';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Greet username="Ryan" isLoggedIn={false} />
       <Button handleClick={handleClick} />
       <Input />
+      <Container styles={{ border: '1px solid black', padding: '1rem' }} />
     </div>
   );
 }
