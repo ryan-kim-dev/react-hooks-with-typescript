@@ -1,8 +1,4 @@
-type GreetProps = {
-  username: string;
-  msgCount?: number;
-  isLoggedIn: boolean;
-};
+import { GreetProps } from '../types/Greet.types';
 
 function Greet({ username, msgCount, isLoggedIn }: GreetProps) {
   return (

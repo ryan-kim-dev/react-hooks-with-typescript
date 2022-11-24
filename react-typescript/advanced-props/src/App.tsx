@@ -4,12 +4,24 @@ import Greet from './components/Greet';
 import Button from './components/Button';
 import Input from './components/Input';
 import Container from './components/Container';
+import PersonList from './components/PersonList';
 import React from 'react';
 
 function App() {
   const handleClick = (e: React.MouseEvent<HTMLButtonElement>, id: number) => {
     console.log('버튼 클릭됨', e, id);
   };
+
+  const nameList = [
+    {
+      first: 'Ryan',
+      last: 'Kim',
+    },
+    {
+      first: 'Bruce',
+      last: 'Lee',
+    },
+  ];
 
   return (
     <div>
@@ -22,6 +34,7 @@ function App() {
       <Button handleClick={handleClick} />
       <Input />
       <Container styles={{ border: '1px solid black', padding: '1rem' }} />
+      <PersonList names={nameList} />
     </div>
   );
 }
