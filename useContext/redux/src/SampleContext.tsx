@@ -30,7 +30,7 @@ function reducer(state: State, action: Action): State {
     case 'SET_COUNT':
       return {
         ...state,
-        count: action.count,
+        count: state.count + 1,
       };
     case 'SET_TEXT':
       return {
