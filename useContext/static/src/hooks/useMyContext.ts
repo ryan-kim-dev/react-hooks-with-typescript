@@ -1,4 +1,4 @@
-import { createContext, useContext } from 'react';
+import { useContext } from 'react';
 import { MyContext } from '../contexts';
 
 export function useMyContext() {
